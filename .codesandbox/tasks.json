@@ -1,0 +1,29 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    },
+    {
+      "command": "npm  run server",
+      "name": "n"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "complete": {
+      "name": "complete",
+      "command": "npm run complete"
+    },
+    "server": {
+      "name": "server",
+      "command": "npm run server"
+    },
+    "swagger": {
+      "name": "swagger",
+      "command": "npm run swagger"
+    }
+  }
+}
