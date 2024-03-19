@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Exponemos el puerto en el que el contenedor estará escuchando
-EXPOSE 10000
+EXPOSE 3000
 
 # Comando para iniciar la aplicación cuando se ejecute el contenedor
 CMD ["node", "server.js"]
