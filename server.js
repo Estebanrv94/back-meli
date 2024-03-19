@@ -16,7 +16,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const port = process.env.APP_PORT || 8081;
+const port = process.env.APP_PORT || 10000;
 const host = process.env.APP_HOST || '127.0.0.1';
 
 const router = require('./server/routes/product.routes');
